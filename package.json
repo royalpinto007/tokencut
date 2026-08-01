@@ -1,0 +1,15 @@
+{
+  "name": "tokencut",
+  "version": "0.1.0",
+  "description": "Measure and cut the token cost of your LLM and agent message payloads.",
+  "type": "module",
+  "bin": { "tokencut": "bin/tokencut.mjs" },
+  "exports": "./src/index.mjs",
+  "files": ["src", "bin", "README.md"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["llm", "tokens", "context", "context-engineering", "agents", "anthropic", "openai", "claude", "cost", "token-optimization"],
+  "author": "Royal Simpson Pinto",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/royalpinto007/tokencut" },
+  "engines": { "node": ">=18" }
+}
