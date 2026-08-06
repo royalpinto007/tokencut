@@ -1,15 +1,43 @@
 {
   "name": "tokencut",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Measure and cut the token cost of your LLM and agent message payloads.",
   "type": "module",
-  "bin": { "tokencut": "bin/tokencut.mjs" },
+  "bin": {
+    "tokencut": "bin/tokencut.mjs"
+  },
   "exports": "./src/index.mjs",
-  "files": ["src", "bin", "README.md"],
-  "scripts": { "test": "node --test" },
-  "keywords": ["llm", "tokens", "context", "context-engineering", "agents", "anthropic", "openai", "claude", "cost", "token-optimization"],
+  "files": [
+    "src",
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "llm",
+    "tokens",
+    "context",
+    "context-engineering",
+    "agents",
+    "anthropic",
+    "openai",
+    "claude",
+    "cost",
+    "token-optimization"
+  ],
   "author": "Royal Simpson Pinto",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/AgentPostmortem/tokencut" },
-  "engines": { "node": ">=18" }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentPostmortem/tokencut.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "bugs": {
+    "url": "https://github.com/AgentPostmortem/tokencut/issues"
+  },
+  "homepage": "https://github.com/AgentPostmortem/tokencut#readme"
 }
