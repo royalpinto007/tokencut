@@ -1,6 +1,6 @@
 # tokencut
 
-[![npm version](https://img.shields.io/npm/v/tokencut.svg)](https://www.npmjs.com/package/tokencut) [![CI](https://github.com/royalpinto007/tokencut/actions/workflows/ci.yml/badge.svg)](https://github.com/royalpinto007/tokencut/actions/workflows/ci.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/tokencut.svg)](https://www.npmjs.com/package/tokencut) [![CI](https://github.com/AgentPostmortem/tokencut/actions/workflows/ci.yml/badge.svg)](https://github.com/AgentPostmortem/tokencut/actions/workflows/ci.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **Measure and cut the token cost of your LLM and agent message payloads.** Zero model calls, deterministic, works on Anthropic-style and OpenAI-style messages.
 

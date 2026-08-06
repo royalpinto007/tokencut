@@ -10,6 +10,6 @@
   "keywords": ["llm", "tokens", "context", "context-engineering", "agents", "anthropic", "openai", "claude", "cost", "token-optimization"],
   "author": "Royal Simpson Pinto",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/royalpinto007/tokencut" },
+  "repository": { "type": "git", "url": "https://github.com/AgentPostmortem/tokencut" },
   "engines": { "node": ">=18" }
 }
